@@ -71,25 +71,19 @@ using MyDemoApp.Models;
 <h2> About the application </h2>
 <br />
 <p>
-    ""My Demo Application"" is a simple application that uses Entity Framework in an ASP.NET Core MVC web application. On launching the application 100 dummy users are automatically created and seeded into the database. This application is intended to be run on localhost and was developed as a part of the interview project at KPMG.
+    ""My Demo Application"" is a simple application that uses Entity Framework in an ASP.NET Core MVC web application. On launching the application 100 dummy users are automatically created and seeded into the database. This application is intended to be run on localhost and was developed as a part of the interview project Bam! Interactive GmbH.
 </p>
 
 <p id=""intro"">
-    The application was developed as a part of interview project for KPMG International Limited for it's branch Düsseldorf in Germany. The application was developed in the following seven steps.
+    
+    The application was developed in the following seven steps.
 
 </p>
 
 <p id=""steps"">
 
     <ol>
-        <li> Creation of an MVC .NET Core Project using Visual Studio Community 2019</li>
-
-        <li>Integration of Enti");
-            WriteLiteral(@"tyFramework (6.4.4) as a NuGet Package. </li>
-
-        <li>Creation of an EntityFramework Data context with the name ""TestContext""</li>
-
-        <li>In the constructor of TestContext, a static string was used as a source for sarving data.</li>
+        
 
         <li>
             Creation of the user table, with the following columns :
@@ -116,9 +110,7 @@ using MyDemoApp.Models;
 <br />
 <br />
 
-<p>
-    Furthermore the application makes it possible to create and add new users to the database and to delete existing users from the database
-</p>
+
 
 
 
